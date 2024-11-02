@@ -6,7 +6,7 @@ let prenom="ali";
 // console.log(x,7,"salut")
 {
     TVA=20;
-    var z=8;
+    var z=8;//hoisting 
     let y=x++ * 3;
     {
         let a=9;
