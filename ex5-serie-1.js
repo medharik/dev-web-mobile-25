@@ -10,10 +10,31 @@ function rendre_unique(tab=[]) {
         unique.push(a[i]);
         }
     }
+    // github.com/medharik/dev-web-mobile-25
     return unique;
 }
 
-
+//  la frequence de chaque nombre dans un  tableau 
+// [1,2,1,3] => 1 : 2 , 2:1 , 3 :1 
+let nf=1;
+const ta=[1,2,1,3];
+function freq(n, tab){
+    let frequence=0;
+    for (let i = 0; i < tab.length; i++) {
+       if (tab[i]==n) {
+        frequence++;
+       }
+        
+    }
+    return frequence;
+}
+const tx=[1,1,3,1,3,2];
+// [1,1,3,1,3,2] => 1 est repete 3 , 2 est repete : 1,....
+const uni=rendre_unique(tx);
+for (let i = 0; i < uni.length; i++) {
+    console.log(uni[i]+" est repete : "+freq(uni[i],tx));
+    
+}
 
 console.log('unique ',rendre_unique(a));
 
