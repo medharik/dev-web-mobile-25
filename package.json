@@ -1,0 +1,14 @@
+{
+  "name": "abdo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "base1-variable-constante.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "hamid",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
